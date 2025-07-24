@@ -23,11 +23,5 @@ class ThemeController extends Controller
         return view("theme.singleblog");
       }
 
-    protected function login()
-    {
-        return view("theme.login");
-    }
-    protected function register(){
-        return view("theme.register");
-    }
+
 }
